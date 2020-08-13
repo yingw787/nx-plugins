@@ -35,7 +35,15 @@
   "dependencies": {
     "@zeit/ncc": "^0.21.1",
     "enquirer": "^2.3.4",
-    "fs-extra": "^8.1.0"
+    "fs-extra": "^8.1.0",
+    "document-register-element": "1.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "next": "9.1.5",
+    "@zeit/next-css": "1.0.1",
+    "@zeit/next-sass": "1.0.1",
+    "@zeit/next-less": "1.0.1",
+    "@zeit/next-stylus": "1.0.1"
   },
   "devDependencies": {
     "@nrwl/angular": "^9.2.2",
@@ -59,6 +67,13 @@
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
     "typescript": "~3.7.4",
-    "yarn": "^1.22.4"
+    "yarn": "^1.22.4",
+    "cypress": "^4.1.0",
+    "@nrwl/cypress": "9.2.2",
+    "@nrwl/web": "9.1.0",
+    "@nrwl/react": "9.1.0",
+    "@types/react": "16.9.17",
+    "@types/react-dom": "16.9.4",
+    "@testing-library/react": "9.4.0"
   }
 }

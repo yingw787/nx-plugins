@@ -17,6 +17,13 @@
     "nx-deploy-it-e2e": {
       "tags": [],
       "implicitDependencies": ["nx-deploy-it"]
+    },
+    "test-app": {
+      "tags": []
+    },
+    "test-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["test-app"]
     }
   }
 }
