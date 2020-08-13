@@ -42,6 +42,7 @@
     "@nrwl/eslint-plugin-nx": "9.1.0",
     "@nrwl/jest": "9.1.0",
     "@nrwl/nest": "^9.1.2",
+    "@nrwl/next": "^9.1.0",
     "@nrwl/nx-plugin": "9.1.0",
     "@nrwl/workspace": "9.1.0",
     "@types/jest": "24.9.1",
