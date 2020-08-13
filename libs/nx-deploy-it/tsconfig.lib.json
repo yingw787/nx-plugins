@@ -8,5 +8,6 @@
     "types": ["node"]
   },
   "exclude": ["**/*.spec.ts", "src/schematics/*/files/**/*"],
-  "include": ["**/*", "src/schematics/*/files/**/*.template"]
+  "include": ["**/*", "src/schematics/*/files/**/*.template"],
+  "files": []
 }
