@@ -11,12 +11,11 @@
           "builder": "@nrwl/linter:lint",
           "options": {
             "linter": "eslint",
-            "config": "libs/nx-deploy-it/.eslintrc",
             "tsConfig": [
               "libs/nx-deploy-it/tsconfig.lib.json",
               "libs/nx-deploy-it/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/nx-deploy-it/**"]
+            "exclude": ["**/node_modules/**", "!libs/nx-deploy-it/**/*"]
           }
         },
         "test": {
